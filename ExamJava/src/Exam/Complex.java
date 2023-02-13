@@ -69,13 +69,11 @@ public class Complex {
   }
   
   
-  // method to get the imaginary part of the complex number
   public double getImaginaryPart() {
     return this.imaginaryPart;
   }
   
   
-  // method to display the complex number in the format "a + bi"
   public String toString() {
     return this.realPart + " + " + this.imaginaryPart + "i";
   }
